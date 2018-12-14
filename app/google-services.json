@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "300616631025",
+    "firebase_url": "https://firstchatapp-bb184.firebaseio.com",
+    "project_id": "firstchatapp-bb184",
+    "storage_bucket": "firstchatapp-bb184.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300616631025:android:f6b2dcbad47f1da1",
+        "android_client_info": {
+          "package_name": "com.example.jesulonimi.firstchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300616631025-45vi6v6pef2h52o86sgdufpnjvbhdlfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jesulonimi.firstchatapp",
+            "certificate_hash": "f6c9d9bd72a5cfe4c9f1b729b1216562d1193348"
+          }
+        },
+        {
+          "client_id": "300616631025-p38dk9195oq81gdki50qt7vq9if4q5gp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDempflxxGgBZbfl4dafZPmayMBXZKBrqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300616631025-p38dk9195oq81gdki50qt7vq9if4q5gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

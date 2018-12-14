@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorPrimaryDark"
+    tools:context=".StartActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="welcome to nimi's chat application"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/notRegistered"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="194dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="not Registered"
+
+        />
+
+    <Button
+        android:id="@+id/haveAccount"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="already have an account"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>

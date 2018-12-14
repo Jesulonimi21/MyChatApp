@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/background_light"
+
+        android:src="@drawable/user_avatar_good" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="Jesulonimi"
+
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="work"
+        android:id="@+id/jobStatus"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/friendsNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:gravity="center_horizontal"
+        android:text="no of friends"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/requestbutton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:width="200dp"
+            android:text="send friend request"
+            android:background="@drawable/button"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/declineRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:width="13dp"
+        android:background="@drawable/largebutton"
+        android:gravity="center_horizontal"
+        android:onClick="DeclineRequest"
+        android:text="decline request" />
+</LinearLayout>
